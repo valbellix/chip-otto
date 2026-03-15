@@ -7,9 +7,9 @@ target_include_directories(c8
     PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}
 )
-add_executable(chip-otto Main.cpp)
+add_executable(c-otto Main.cpp)
 
-target_link_libraries(chip-otto
+target_link_libraries(c-otto
     PRIVATE
         c8
 )
